@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..900&display=swap');
+        </style>
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Encriptador</title>
+</head>
+<body class="body">
+    <header class="header">
+        <nav class="header__img">
+            <img src="imagenes/logo.avif" alt="logo de alura" class="header__img__logo">
+        </nav>
+    </header>
+    <main class="main">
+        <section class="mensaje-entrada">
+            <textarea id="text-area" class="text-area" cols="64" rows="20" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="excepcion">
+                <i class="fa-sharp fa-solid fa-circle-exclamation fa-beat"></i>
+                <p class="informacion">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+    
+        <section class="mensaje-salida">
+            <div class="placeholder-custom">
+                <strong id="placeholder-strong">Ningún mensaje fue <br>encontrado</strong><br>
+                <span id="placeholder-span">Ingresa el texto que desees encriptar o desencriptar.</span>
+            </div>
+            <textarea class="mensaje" cols="50" rows="10"></textarea>
+            <div>
+                <button class="btn-copiar" onclick="btnCopiarTexto()">Copiar</button>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="footer">
+        <p>Desarrollado por Luis Zavala - 2024</p>
+        <a href="https://github.com/uptzav" target="_blank"><i class="fa-brands fa-square-github fa-fade fa-xl" style="color: #8673bf;"></i></a>
+
+        
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
