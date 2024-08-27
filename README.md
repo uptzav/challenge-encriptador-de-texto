@@ -29,5 +29,5 @@ Encriptar o Desencriptar:
 3. **Ingresa tu texto en el área de texto proporcionada.**
 Haz clic en "Encriptar" para codificar el mensaje o en "Desencriptar" para decodificarlo.
 
-4. **Función de Copiar**
+4. **Función de Copiar**:
 Puedes hacer clic en el botón de copiar una vez que hayas encriptado o desencriptado
